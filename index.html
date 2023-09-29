@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample web page</title>
+    <title>Sample Web Page, Color scheme switcher Engine</title>
+    <meta name="description" content="Color scheme switcher is a JS color scheme engine in just one file, easy to set up !">
     <script src="engine.js" defer></script>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <div class="navbar">
         <div class="logo-wraper">
-            <p>SWP</p>
+            <p class="logo">SWP</p>
         </div>
         <ul class="navbar-items">
-            <li class="items">Home</li>
-            <li class="items">Projects</li>
-            <li class="items">About</li>
-            <li class="items">Contact</li>
+            <li class="navitem">Home</li>
+            <li class="navitem">Projects</li>
+            <li class="navitem">About</li>
+            <li class="navitem btn">Contact</li>
         </ul>
     </div>
     <main class="content-container">
         <section class="hero">
-            <h1 class="hero-title">Sample Web Page for color scheme switcher</h1>
-            <p class="sub-hero">This page is a sample exemple for color scheme switcher</p>
+            <div class="hero-content-wraper">
+                <h1 class="hero-title">Sample. Web. Page.<br> for color scheme switcher</h1>
+                <p class="sub-hero">This page is a sample exemple for color scheme switcher</p>
+            </div>
         </section>
         <section class="card-view">
             <div class="card-container">
@@ -41,6 +45,14 @@
                     <img src="./assets/dark-mode.webp" alt="dark-mode">
                     <p class="card-text">Simple switcher</p>
                 </div>
+            </div>
+        </section>
+        <section class="text-container">
+            <div class="text">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, facilis qui corporis, sunt dolorum totam aut a itaque minima culpa fugiat tempora voluptates architecto error, mollitia iure. Dolores deleniti asperiores ducimus cumque cum ex id totam eveniet, temporibus perferendis eaque doloremque dolore est veniam, laudantium eos in aperiam, fugiat laboriosam ipsam error. Aut quos quo aperiam ex tenetur, modi itaque. Debitis id incidunt sint aliquam qui doloremque, assumenda optio nihil architecto? Asperiores, laborum! Sequi beatae nulla minus modi officia harum dolores exercitationem quasi sed voluptatibus, porro ullam aliquam minima repellendus reiciendis? Architecto delectus necessitatibus sequi temporibus nemo, dolore omnis asperiores velit quo animi rem! Illum, deleniti iusto. Quo distinctio harum sint, ipsam ab expedita deleniti.</p>
+                <h2>Lorem ipsum sit amet adipisicing elit.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti cupiditate excepturi? Ea illo, sunt ab quidem reiciendis eum saepe enim odio in voluptatum repellendus sapiente impedit provident eius repellat unde totam perferendis nemo placeat omnis animi tempore amet corporis officia! Debitis incidunt quod deleniti quas ut quam ipsa sunt, aperiam natus delectus quisquam illo commodi cupiditate qui, voluptatum quae tempora velit, quibusdam asperiores optio voluptas eius facere. Perspiciatis quas eaque mollitia nobis voluptates at ratione sed consectetur animi, doloribus ad! Quod laborum, dignissimos consectetur quidem nihil eaque, obcaecati facere illum odit voluptas veritatis distinctio fugiat.</p>
             </div>
         </section>
     </main>
